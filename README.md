@@ -33,7 +33,7 @@ server {
 
 2. default.confのConfigMapを作成する
 ```
-% kubectl create configmap --dry-run --save-config nginx-configmap --from-file=default.conf=./default.conf --output yaml > configmap.yaml
+% kubectl create configmap --dry-run --save-config nginx-configmap --from-file=default.conf --output yaml > configmap.yaml
 ```
 
 3. Deploymentを作成する
